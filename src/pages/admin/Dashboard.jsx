@@ -6,21 +6,21 @@ const Dashboard = () => {
     const [stats] = useState([
         {
             label: "Total Users",
-            value: 7,
+            value: 12,
             icon: "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z",
             bgColor: "bg-blue-100",
             iconColor: "text-blue-500",
         },
         {
             label: "Total Orders",
-            value: 567,
+            value: 374,
             icon: "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z",
             bgColor: "bg-green-100",
             iconColor: "text-green-500",
         },
         {
             label: "Total Products",
-            value: 6,
+            value: 5,
             icon: "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4",
             bgColor: "bg-purple-100",
             iconColor: "text-purple-500",
@@ -46,7 +46,7 @@ const Dashboard = () => {
                 <div>
                     <h1 className="text-3xl font-bold text-gray-800">Dashboard</h1>
                     <p className="text-gray-500 mt-1">
-                        Selamat datang kembali, <span className="font-semibold text-primary">123</span>!
+                        Selamat datang kembali, <span className="font-semibold text-primary">admin</span>!
                     </p>
                 </div>
                 <button 
